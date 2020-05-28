@@ -1,0 +1,10 @@
+<configuration namespace="product">
+
+    <select name="selectOne" resourceTyp="com.casper.model.product" parameterType="com.casper.model.product">
+        select * from product where id = #{id}
+    </select>
+
+    <select name="selectList" resourceTyp="com.casper.model.user">
+        select * from product
+    </select>
+</configuration>

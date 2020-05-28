@@ -1,0 +1,10 @@
+<configuration namespace="coms.casper.dao.UserDao">
+
+    <select name="findOne" resourceTyp="com.casper.model.user" parameterType="com.casper.model.user">
+        select * from user where id = #{id}
+    </select>
+
+    <select name="findAll" resourceTyp="com.casper.model.user">
+        select * from user
+    </select>
+</configuration>

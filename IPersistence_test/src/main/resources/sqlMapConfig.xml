@@ -1,0 +1,12 @@
+<configuration>
+    <datasSource>
+        <propery name="driverClass" value="com.mysql.jdbc.Driver"></propery>
+        <propery name="jdbcUrl" value="jdbc:mysql:///capser"></propery>
+        <propery name="username" value="root"></propery>
+        <propery name="password" value="root"></propery>
+    </datasSource>
+
+
+    <mapper resource="UserMapper.xml"></mapper>
+
+</configuration>
